@@ -523,7 +523,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721397232}
-  m_LocalRotation: {x: 0.41852474, y: 0.34116474, z: -0.17335862, w: 0.82364464}
+  m_LocalRotation: {x: 0.41852477, y: 0.34116474, z: -0.17335857, w: 0.8236447}
   m_LocalPosition: {x: -8, y: 16, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -902,6 +902,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zombieData_default: {fileID: 0}
+  textCsv: {fileID: 0}
+  lines: []
+  columns: []
 --- !u!114 &1535750377 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114467243759996372, guid: 63226789a2ac34fec8493b064c47bd44,
@@ -1140,8 +1143,6 @@ MonoBehaviour:
   zombiePrefab: {fileID: 1255871664, guid: b4184edb80f9d1b49a84dd40aaa3b8a4, type: 3}
   zombieDatas:
   - {fileID: 0}
-  - {fileID: 11400000, guid: 4ea82918b905ff54aa085fa950d58a44, type: 2}
-  - {fileID: 11400000, guid: 198e59a3e49f65646a5a1279cc65ad97, type: 2}
   spawnPoints:
   - {fileID: 918869023}
   - {fileID: 2012129848}
@@ -1255,7 +1256,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080099801}
-  m_LocalRotation: {x: 0.41852474, y: 0.34116474, z: -0.17335862, w: 0.82364464}
+  m_LocalRotation: {x: 0.41852477, y: 0.34116474, z: -0.17335857, w: 0.8236447}
   m_LocalPosition: {x: -8, y: 16, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
